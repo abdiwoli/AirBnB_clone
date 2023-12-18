@@ -44,6 +44,7 @@ h4 {
 }
 
 .location {
+    left:5px;
     border-right: #DDDDDD solid 1px;
 }
 
@@ -63,21 +64,31 @@ h3 {
     border-radius: 4px;
     position: absolute;
     z-index: 1;
-    width: 100%; /* Width same as the div filter */
+    width: 20%;
 }
 
 .popover ul {
-    list-style: none; /* No bullets or numbers */
+    list-style: none;
     padding: 0;
-    display: none; /* No list display */
 }
-
+ul {
+    list-style-type: none;
+    margin-top: 15px;
+}
 .popover h2 {
     font-size: 16px;
     margin: 10px;
 }
 
-.location:hover .popover,
-.amenities:hover .popover {
+.location:hover .popover
+{
     display: inline-block;
+    left:0%;
+}
+.amenities:hover .popover
+{
+    margin:top15px;
+    display: inline-block;
+    left:26%;
+    margin-top:5px;
 }
